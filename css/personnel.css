@@ -1,0 +1,24 @@
+
+/********add personnel style***********/
+
+#post>table {
+  border-collapse:collapse;
+  border:1px solid black;
+  margin: auto;
+}
+
+
+#post>table tr:nth-child(even) {
+  background-color:#EFEFEF;
+}
+
+
+#post>table td,#post>table th {
+  border:1px solid black;
+}
+
+
+.flow-chart {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,490 @@
+
+
+
+
+
+
+
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <meta name="author" content="Jasery">
+  
+  
+  
+  
+    <meta name="description" content="此文章适合知道github,知道命令行，想搭建博客的朋友
+
+这次算是把博客搭好了，第一篇文章(helloworld除外)就用来聊聊搭建博客吧。
+名词解释在我刚开始逛github的时候，发现很多人的博客都长一样，而且经常出现一个名词“hexo”。如果可以事先对要学习的东西有个概念，后面的进行会方便很多
+github Pages
+首先是github,简单说就是一个可以保存和分享代码的平台，是目前...">
+  
+  <title>使用hexo和github Pages搭建博客系统 [ Jasery's Blog ]</title>
+  
+  
+    <link rel="shortcut icon" href="/favicon.ico">
+  
+  
+  <link rel="stylesheet" href="/css/random.css">
+<link rel="stylesheet" href="/css/vegas.min.css">
+<link rel="stylesheet" href="/css/highlight-railscasts.css">
+<link rel="stylesheet" href="/css/jquery.fancybox.css">
+<link rel="stylesheet" href="/css/iconfont/iconfont.css">
+<link rel="stylesheet" href="/css/jquery.fancybox-thumbs.css">
+<link rel="stylesheet" href="/css/plyr.css">
+<link rel="stylesheet" href="/css/personnel.css">
+  
+</head>
+
+<body>
+<div class="side-navigate hide-area">
+  
+  
+    <div class="item next">
+      <a href="/2017/02/07/hello-world/">
+        <div class="item-icon"></div>
+      </a>
+      <div class="item-title">
+        Hello World
+      </div>
+    </div>
+  
+</div>
+<div id="outer-container" class="hide-area">
+<div id="container">
+  <div id="menu-outer" class="slide-down">
+    <div id="menu-inner">
+      <div id="brand">
+        
+        <a onClick="openUserCard()">
+          <img id="avatar" src="https://avatars1.githubusercontent.com/u/20091279"/>
+          <div id="homelink">Jasery's Blog</div>
+        </a>
+      </div>
+      <div id="menu-list">
+        <ul>
+        
+        
+          
+            <li>
+          
+            <a href="/index.html">主页</a>
+            
+          </li>
+        
+          
+            <li>
+          
+            <a href="/archives">文章列表</a>
+            
+          </li>
+        
+          
+            <li>
+          
+            <a href="/tags">标签</a>
+            
+          </li>
+        
+          
+            <li>
+          
+            <a href="/categories">分类</a>
+            
+          </li>
+        
+          
+            <li>
+          
+            <a href="/about">关于</a>
+            
+          </li>
+        
+        </ul>
+      </div>
+      <div id="show-menu">
+        <button>Menu</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="content-outer">
+    <div id="content-inner">
+      
+      
+  <article id="post">
+    <h1>使用hexo和github Pages搭建博客系统</h1>
+    <p class="page-title-sub">
+      <span id = "post-title-date">撰写于 2017-02-09</span>
+      
+        <span id = "post-title-updated">修改于 2017-02-19</span>
+      
+      
+      <span id = "post-title-categories">分类
+      
+      
+        
+        
+        <a href="/categories/教程/">教程</a>
+      
+      </span>
+      
+      
+      <span id = "post-title-tags">
+      标签
+      
+      
+        
+        
+        <a href="/tags/blog/">blog</a>
+      
+      </span>
+      
+    </p>
+    
+    <blockquote>
+<p>此文章适合知道github,知道命令行，想搭建博客的朋友</p>
+</blockquote>
+<p>这次算是把博客搭好了，第一篇文章(helloworld除外)就用来聊聊搭建博客吧。</p>
+<h2 id="名词解释"><a href="#名词解释" class="headerlink" title="名词解释"></a>名词解释</h2><p>在我刚开始逛github的时候，发现很多人的博客都长一样，而且经常出现一个名词“hexo”。如果可以事先对要学习的东西有个概念，后面的进行会方便很多</p>
+<h3 id="github-Pages"><a href="#github-Pages" class="headerlink" title="github Pages"></a>github Pages</h3><ul>
+<li>首先是github,简单说就是一个可以保存和分享代码的平台，是目前最大的开源社区，有许许多多优秀的开源项目。github使用git作为版本控制，如果需要了解git的话请移步<a href="https://git-scm.com/book/zh/v1" target="_blank" rel="external">git book</a>。</li>
+<li>github pages，是给github提供的一个免费的资源服务，你在github上按照指定的方式创建一个仓库，就可以通过浏览器在指定的域名下访问到你上传的资源。更多请参考<a href="https://pages.github.com/" target="_blank" rel="external">https://pages.github.com/</a>。</li>
+</ul>
+<h3 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h3><ul>
+<li>Markdown,用hexo搭建的博客，文章需要用markdown写。Markdown是一种可以让你的文本按照指定的格式去显示的轻量级标记语言，相对比较简单。如果你有HTML基础，markdown的难度几乎可以忽略。需要了解更多请移步<a href="http://sspai.com/25137/" target="_blank" rel="external">认识与入门Markdown</a><blockquote>
+<p>补充：hexo不仅仅支持Markdown,还有EJS和Stylus等,但目前主流的是Markdown</p>
+</blockquote>
+</li>
+<li>hexo,读作hack so,没人在我面前读过，我们暂且就这样读吧。hexo，今天的主角，可以把你用markdown写的文章，按照指定的主题模板生成静态页面。然后我们把这些页面放到github pages上，就可以让别人浏览到了。</li>
+</ul>
+<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>安装Node.js和Git，如果不知道这两个东西可以先不用管，装就是了。windows下下载<a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js</a>和<a href="http://git-scm.com/" target="_blank" rel="external">Git</a>(本教程默认都是在windows下，其他平台类似)并安装。Git装好后，点击鼠标右键可以看到有个<code>Git bush here</code>,可在当前目录下打开一个类Linux命令窗口。后面的命令行都可以这样打开去执行。打开命令行后，可以通过命令行<code>node -v</code>查看node版本检查Node.js是否安装好。<br>装好Node.js和Git后，就可以装hexo了，只需要执行命令<code>npm install -g hexo-cli</code>，同样可以通过查看版本命令<code>hexo v</code>检查是否安装成功。</p>
+<h2 id="hexo命令"><a href="#hexo命令" class="headerlink" title="hexo命令"></a>hexo命令</h2><h3 id="基本命令"><a href="#基本命令" class="headerlink" title="基本命令"></a>基本命令</h3><p>hexo的命令不多，常用的就更少了，这里把常用命令做一个说明。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">命令</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">hexo init myDir</td>
+<td style="text-align:left">在当前目录下初始化一个hexo项目，保存在myDir文件夹</td>
+</tr>
+<tr>
+<td style="text-align:left">hexo generate</td>
+<td style="text-align:left">生成静态网页文件</td>
+</tr>
+<tr>
+<td style="text-align:left">hexo server</td>
+<td style="text-align:left">开启预览，默认地址是<a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a></td>
+</tr>
+<tr>
+<td style="text-align:left">hexo deploy</td>
+<td style="text-align:left">部署网站，比如我们用github pages的话这个命令可以帮我们把页面提交到github上</td>
+</tr>
+<tr>
+<td style="text-align:left">hexo new myArticle</td>
+<td style="text-align:left">新增一篇标题为myArticle的文章</td>
+</tr>
+</tbody>
+</table>
+<h3 id="hexo命令流程"><a href="#hexo命令流程" class="headerlink" title="hexo命令流程"></a>hexo命令流程</h3><div id="flowchart-0" class="flow-chart"></div>
+
+<blockquote>
+<p><strong>注意：</strong><br><code>hexo init</code>初始化后，一定要进入工程文件夹执行<code>npm install</code>命令，这个命令会把一些依赖的模块全部安装，保存在node_modules文件夹里面，没有这个安装命令则后面的都执行不了</p>
+</blockquote>
+<h2 id="配置博客"><a href="#配置博客" class="headerlink" title="配置博客"></a>配置博客</h2><p>初始化完了一个hexo之后，其实就已经有了套默认的页面（默认主题）了，而博客的很多内容都是通过写配置去设置。我们可以看到其他人的博客都是做的很好的页面，换做自己肯定做不出这么好的页面。这些都是归功与主题。本博客用的主题是random，后面将会以这个主题为例，讲讲如何配置主题。更多主题请移步<a href="https://hexo.io/themes/" target="_blank" rel="external">hexo主题</a>，佳丽三千，总能找到一个适合你的。</p>
+<h3 id="基本配置"><a href="#基本配置" class="headerlink" title="基本配置"></a>基本配置</h3><p>初始化好一个hexo工程之后，在工程文件夹里面多了很多文件夹和文件，下面简单描述各文件或文件夹的作用</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">文件/文件夹</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">public</td>
+<td style="text-align:left">里面是hexo根据我们的文章和主题生成的页面文件</td>
+</tr>
+<tr>
+<td style="text-align:left">scaffolds</td>
+<td style="text-align:left">用于保存新建文章的模板</td>
+</tr>
+<tr>
+<td style="text-align:left">source</td>
+<td style="text-align:left">用于保存我们的资源，比如文章，图片等</td>
+</tr>
+<tr>
+<td style="text-align:left">themes</td>
+<td style="text-align:left">保存hexo主题</td>
+</tr>
+<tr>
+<td style="text-align:left">_config.yml</td>
+<td style="text-align:left">hexo的配置文件</td>
+</tr>
+</tbody>
+</table>
+<p>hexo的配置都是写到_config.yml文件里，包括后面要将的主题的配置，只是主题的配置在对应主题文件夹里。hexo的配置有的很多，大部分都是保留默认的就可以了,以下是部分配置说明</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">配置项</th>
+<th style="text-align:left">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">title</td>
+<td style="text-align:left">标题</td>
+</tr>
+<tr>
+<td style="text-align:left">subtitle</td>
+<td style="text-align:left">子标题</td>
+</tr>
+<tr>
+<td style="text-align:left">description</td>
+<td style="text-align:left">描述，用于方便被别人搜索到</td>
+</tr>
+<tr>
+<td style="text-align:left">author</td>
+<td style="text-align:left">作者</td>
+</tr>
+<tr>
+<td style="text-align:left">languange</td>
+<td style="text-align:left">语言，中文用zh-CN</td>
+</tr>
+<tr>
+<td style="text-align:left">theme</td>
+<td style="text-align:left">使用的主题，需要先把主题下载到themes文件夹</td>
+</tr>
+<tr>
+<td style="text-align:left">deploy</td>
+<td style="text-align:left">部署的配置</td>
+</tr>
+</tbody>
+</table>
+<p>说明：</p>
+<ul>
+<li>其他配置可以到<a href="https://hexo.io" target="_blank" rel="external">hexo官网</a>查看</li>
+<li>配置的值跟前面的冒号需要有一个空格隔开，不然会报错</li>
+<li>部署使用github的话需要安装hexo-deployer-git插件，就是执行<code>npm install hexo-deployer-git --save</code>命令</li>
+</ul>
+<h3 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h3><p>我们在hexo工程根目录配置好主题（注意，这里配置值一定要跟保存在themes文件夹下的主题的文件夹名称一致），就可以看到精美的页面了。一般hexo主题在项目的github都会有说明。</p>
+<h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><p>github pages 使用方法很简单，只需要创建一个以你的用户名加上<code>.github.io</code>命名的仓库就可以了，比如我的就是<code>jasery.github.io</code>仓库，然后往这个仓库提交hexo生成的文件，通过网址<code>https://github pages仓库名</code>就可以访问了，但是每次hexo生成完了之后，都要提交到仓库的话，显得也太麻烦了。事实上，只需要<code>hexo deploy</code>命令就已经可以完成了所有操作，当然需要提前配置好。</p>
+<p>在hexo的deploy配置可以参考如下：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">    <span class="built_in">type</span>: git</div><div class="line">    repo: 你的github pages 仓库地址</div><div class="line">    branch: master</div></pre></td></tr></table></figure></p>
+<blockquote>
+<p>提示，使用前请记得用命令<code>npm install hexo-deployer-git --save</code>安装git插件</p>
+</blockquote>
+<h2 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h2><p>到这里，一个博客系统就基本搭建好了，以后只需要添加文章，生成，预览，部署，简单的几条命令就可以完成更新。如有需要帮助可以通过<a href="/about">About me</a>联系我。</p>
+
+  </article>
+  <div class="random-toc-area">
+  <button class="btn-hide-toc btn-hide-toc-show" style="display: none" onclick="TOCToggle()">显示目录</button>
+  <button class="btn-hide-toc btn-hide-toc-hide" onclick="TOCToggle()">隐藏目录</button>
+  <div class="random-toc">
+    <h2>目录</h2>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#名词解释"><span class="toc-text">名词解释</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#github-Pages"><span class="toc-text">github Pages</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#hexo"><span class="toc-text">hexo</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#准备工作"><span class="toc-text">准备工作</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#安装"><span class="toc-text">安装</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#hexo命令"><span class="toc-text">hexo命令</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#基本命令"><span class="toc-text">基本命令</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#hexo命令流程"><span class="toc-text">hexo命令流程</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#配置博客"><span class="toc-text">配置博客</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#基本配置"><span class="toc-text">基本配置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#主题配置"><span class="toc-text">主题配置</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#部署"><span class="toc-text">部署</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#结束"><span class="toc-text">结束</span></a></li></ol>
+  </div>
+</div>
+
+  
+<nav id="pagination">
+  
+
+  
+
+  
+    <a href="/2017/02/07/hello-world/" class="next">下一篇 Hello World &rarr;</a>
+  
+</nav>
+
+  <!-- JiaThis Button BEGIN -->
+
+<!-- JiaThis Button END -->
+
+
+      
+      <div class="ds-thread" data-thread-key="2017/02/09/use-hexo-and-github-pages-to-build-blog/" data-title="使用hexo和github Pages搭建博客系统" data-url="https://jasery.github.io/2017/02/09/use-hexo-and-github-pages-to-build-blog/"></div>
+      
+      
+      
+    </div>
+  </div>
+
+  <div id="bottom-outer">
+    <div id="bottom-inner">
+      Site by Jasery using
+      <a href="http://hexo.io">Hexo</a> & <a href="https://github.com/stiekel/hexo-theme-random">Random</a>
+      <br>
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  <script type="text/javascript">
+var duoshuoQuery = {short_name:"jasery"};
+(function() {
+  var ds = document.createElement('script');
+  ds.type = 'text/javascript';ds.async = true;
+  ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+  ds.charset = 'UTF-8';
+  (document.getElementsByTagName('head')[0] 
+   || document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+</script>
+
+
+
+<div id="user-card">
+  <div class="center-field">
+    <img class="avatar" src="https://avatars1.githubusercontent.com/u/20091279">
+    <p id="description">前端 javascript web</p>
+    <ul class="social-icon">
+  
+  
+    <li>
+      <a href="https://github.com/Jasery">
+        
+          <i class="icon iconfont github">&#xe606;</i>
+        
+      </a>
+    </li>
+  
+    <li>
+      <a href="http://weibo.com/3040785535/profile">
+        
+          <i class="icon iconfont weibo">&#xe602;</i>
+        
+      </a>
+    </li>
+  
+    <li>
+      <a href="https://www.zhihu.com/people/xiao-xiao-61-48-64">
+        
+          <i class="icon iconfont zhihu">&#xe60b;</i>
+        
+      </a>
+    </li>
+  
+</ul>
+  </div>
+</div>
+
+
+<div id="btn-view">Hide</div>
+
+<script>
+// is trigger analytics / tongji script
+var isIgnoreHost = false;
+
+if(window && window.location && window.location.host) {
+  isIgnoreHost = ["localhost","127.0.0.1"].some(function(address){
+    return 0 === window.location.host.indexOf(address);
+  });
+}
+
+var isTriggerAnalytics = !( true && isIgnoreHost );
+
+</script>
+
+
+
+
+  
+  
+    <script src="/js/jquery-2.2.3.min.js"></script>
+  
+    <script src="/js/vegas.min.js"></script>
+  
+    <script src="/js/random.js"></script>
+  
+    <script src="/js/highlight.pack.js"></script>
+  
+    <script src="/js/jquery.mousewheel.pack.js"></script>
+  
+    <script src="/js/jquery.fancybox.pack.js"></script>
+  
+    <script src="/js/jquery.fancybox-thumbs.js"></script>
+  
+    <script src="/js/plyr.js"></script>
+  
+
+<script>
+
+  // fancybox
+  var backgroundImages = [];
+  
+  $('#post').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox') || $(this).parent().hasClass('fancybox-thumb')) return;
+      var alt = this.alt || this.title;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'post' + i);
+    });
+  });
+  $(".fancybox").fancybox();
+
+var vegasConfig = {"preload­Image":true,"transition":["slideLeft2","slideRight2","zoomIn","swirLeft","swirRight","flash","flash2"],"timer":true,"delay":10000,"shuffle":true,"count":10};
+var unsplashConfig = {"gravity":"north"};
+// is show background images
+var turnoffBackgroundImage = false;
+
+
+
+  turnoffBackgroundImage = true;
+
+
+var backgroundColor = "34495E";
+
+$(".fancybox-thumb").fancybox({
+  prevEffect: 'none',
+  nextEffect: 'none',
+  helpers: {
+    title: {
+      type: 'outside'
+    },
+    thumbs: {
+      width: 50,
+      height: 50
+    }
+  }
+});
+
+// show video with plyr
+$(".video-container iframe").each(function(i){
+  var url = $(this).attr('src');
+  var id = url.split('/').pop();
+  var plyrContainer = document.createElement('div');
+  plyrContainer.className = 'plyr';
+  var plyrElement = document.createElement('div');
+  plyrElement.dataset.videoId = id;
+  switch(true) {
+    case url.search('youtube.com') >= 0:
+      plyrElement.dataset.type = 'youtube';
+      break;
+    case url.search('vimeo.com') >= 0:
+      plyrElement.dataset.type = 'vimeo';
+      break;
+    default:
+      return;
+  };
+  plyrContainer.appendChild(plyrElement);
+  $(this).parent().html(plyrContainer);
+});
+plyr.setup('.plyr', {iconUrl: '/css/sprite.svg'});
+</script>
+</body>
+</html>
+
