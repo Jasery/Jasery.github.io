@@ -1,0 +1,94 @@
+{
+  "maxTicketCount": 5,
+  "maxWaitTime": 28800,
+  "robotConfig": {
+    "FIRST": {
+      "difficulty": [1,2,3],
+      "difficultyRate": [600,300,100],
+      "skin": [1000,1001,1002,2000,2001,3000,3001,3002,3003,2002],
+      "skinRate": [ 2, 2, 2, 1, 1, 1, 1, 0.5, 0.2, 0.2],
+      "robotCount": 6,
+      "COMMENT": "入围赛"
+    },
+    "EIGHT": {
+      "difficulty": [1,2,3],
+      "difficultyRate": [600,300,200],
+      "skin": [1000,1001,1002,2000,2001,3000,3001,3002,3003,2002],
+      "skinRate": [ 2, 2, 2, 1, 1, 1, 1, 0.5, 0.3, 0.3],
+      "robotCount": 8,
+      "COMMENT": "八强赛"
+    },
+    "FOUR": {
+      "difficulty": [1,2,3],
+      "difficultyRate": [600,300,300],
+      "skin": [1000,1001,1002,2000,2001,3000,3001,3002,3003,2002],
+      "skinRate": [ 2, 2, 2, 1, 1, 1, 1, 0.5, 0.5, 0.5],
+      "robotCount": 8,
+      "COMMENT": "四强赛"
+    },
+    "SEMIFINAL": {
+      "difficulty": [1,2,3],
+      "difficultyRate": [600,400,400],
+      "skin": [1000,1001,1002,2000,2001,3000,3001,3002,3003,2002],
+      "skinRate": [ 2, 2, 2, 1, 1, 1, 1, 0.5, 0.6, 0.6],
+      "robotCount": 8,
+      "COMMENT": "半决赛"
+    },
+    "FINAL": {
+      "difficulty": [1,2,3],
+      "difficultyRate": [600,600,600],
+      "skin": [1000,1001,1002,2000,2001,3000,3001,3002,3003,2002],
+      "skinRate": [ 2, 2, 2, 1, 1, 1, 1, 0.5, 0.7, 0.7],
+      "robotCount": 8,
+      "COMMENT": "决赛"
+    }
+  },
+  "rewardSkin": 1003,
+  "rewardNoSkin": {
+    "gold":  300,
+    "cup": 50
+  },
+  "rewardConfig": [
+    {
+      "rank": [1, 2],
+      "award": {
+        "gold": 100,
+        "debris": 0
+      }
+    },
+    {
+      "rank": [2, 4],
+      "award":{
+        "gold": 80,
+        "debris": 0
+      }
+    },
+    {
+      "rank": [4, 6],
+      "award": {
+        "gold": 60,
+        "debris": 0
+      }
+    },
+    {
+      "rank": [6, 8],
+      "award": {
+        "gold": 40,
+        "debris": 0
+      }
+    },
+    {
+      "rank": [8, 10],
+      "award": {
+        "gold": 20
+      }
+    },
+    {
+      "rank": [10],
+      "award": {
+        "gold": 10
+      }
+    }
+  ],
+  "maps": [1, 2, 3, 4]
+}

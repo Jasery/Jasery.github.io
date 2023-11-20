@@ -1,0 +1,183 @@
+{
+    "local": [
+        {
+            "type": "json",
+            "urls": []
+        },
+        {
+            "type": "atlas",
+            "urls": [
+                "/Users/mobvista/git-repos/snow_ball/client/bin/res/atlas/Resource/loading.atlas"
+            ]
+        },
+        {
+            "type": "image",
+            "urls": [
+                "/Users/mobvista/git-repos/snow_ball/client/bin/Resource/loading/bg.jpg",
+                "/Users/mobvista/git-repos/snow_ball/client/bin/Resource/local/topMiniProgram.png"
+            ]
+        },
+        {
+            "type": "arraybuffer",
+            "urls": []
+        }
+    ],
+    "map1": [
+        {
+            "type": "json",
+            "urls": []
+        },
+        {
+            "type": "atlas",
+            "urls": []
+        },
+        {
+            "type": "image",
+            "urls": [
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/Resource/maps/bg1/1.png",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/Resource/maps/bg1/2.png",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/Resource/maps/bg1/3.png",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/Resource/maps/bg1/blockBottom.png",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/Resource/maps/bg1/blockTop.png",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/Resource/maps/bg1/duck.png"
+            ]
+        },
+        {
+            "type": "arraybuffer",
+            "urls": []
+        }
+    ],
+    "map2": [
+        {
+            "type": "json",
+            "urls": []
+        },
+        {
+            "type": "atlas",
+            "urls": []
+        },
+        {
+            "type": "image",
+            "urls": [
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/Resource/maps/bg2/1.png",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/Resource/maps/bg2/2.png",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/Resource/maps/bg2/3.png",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/Resource/maps/bg2/snowman.png"
+            ]
+        },
+        {
+            "type": "arraybuffer",
+            "urls": []
+        }
+    ],
+    "map3": [
+        {
+            "type": "json",
+            "urls": []
+        },
+        {
+            "type": "atlas",
+            "urls": []
+        },
+        {
+            "type": "image",
+            "urls": [
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/Resource/maps/bg3/1.png",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/Resource/maps/bg3/2.png",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/Resource/maps/bg3/3.png",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/Resource/maps/bg3/bg1.png",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/Resource/maps/bg3/bg2.png",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/Resource/maps/bg3/bg3.png",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/Resource/maps/bg3/wood1.png",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/Resource/maps/bg3/wood2.png"
+            ]
+        },
+        {
+            "type": "arraybuffer",
+            "urls": []
+        }
+    ],
+    "cdn": [
+        {
+            "type": "json",
+            "urls": [
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/fileconfig.json",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/unpack.json",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/config/aiConfig.json",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/config/challengeConfig.json",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/config/danGradingCupConfig.json",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/config/danGradingDisplayConfig.json",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/config/debugConfig.json",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/config/initConfig.json",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/config/mapConfig.json",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/config/mapsConfig.json",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/config/prizeWheelConfig.json",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/config/rankCupConfig.json",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/config/rewardConfig.json",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/config/robotConfig.json",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/config/shopConfig.json",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/config/usersConfig.json",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/prefab/mywheel.json",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/scenes/GamePlay/GamePlayView.json",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/scenes/PrizeWheel/PrizeWheelView.json"
+            ]
+        },
+        {
+            "type": "atlas",
+            "urls": [
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/res/atlas/Resource/Challenge.atlas",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/res/atlas/Resource/Match.atlas",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/res/atlas/Resource/common.atlas",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/res/atlas/Resource/customer.atlas",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/res/atlas/Resource/dailyEnterGift.atlas",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/res/atlas/Resource/danGrading.atlas",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/res/atlas/Resource/explodeEffect.atlas",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/res/atlas/Resource/gameInfo.atlas",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/res/atlas/Resource/loading.atlas",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/res/atlas/Resource/login.atlas",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/res/atlas/Resource/loginAward.atlas",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/res/atlas/Resource/mainAward.atlas",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/res/atlas/Resource/maps.atlas",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/res/atlas/Resource/prizeWheel.atlas",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/res/atlas/Resource/rank.atlas",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/res/atlas/Resource/ribbonEffect.atlas",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/res/atlas/Resource/ribbonEffect2.atlas",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/res/atlas/Resource/rocker.atlas",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/res/atlas/Resource/settlement.atlas",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/res/atlas/Resource/share.atlas",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/res/atlas/Resource/shop.atlas",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/res/atlas/Resource/snowBalls.atlas",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/res/atlas/Resource/snowMans.atlas",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/res/atlas/Resource/snowflake.atlas",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/res/atlas/Resource/spines.atlas",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/res/atlas/Resource/tryGame.atlas",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/res/atlas/Resource/maps/bg1.atlas",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/res/atlas/Resource/maps/bg2.atlas",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/res/atlas/Resource/maps/bg3.atlas"
+            ]
+        },
+        {
+            "type": "image",
+            "urls": [
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/Resource/Challenge/bgChallenge.png",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/Resource/common/bgCommon.png",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/Resource/loading/bg.jpg",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/Resource/spines/snowman1.png",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/Resource/spines/snowman2.png",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/Resource/spines/snowman4.png",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/res/atlas/Resource/maps/bg1.png",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/res/atlas/Resource/maps/bg2.png",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/res/atlas/Resource/maps/bg3.png"
+            ]
+        },
+        {
+            "type": "arraybuffer",
+            "urls": [
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/Resource/spines/snowman1.sk",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/Resource/spines/snowman2.sk",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/Resource/spines/snowman3.sk",
+                "/Users/mobvista/git-repos/snow_ball/GameAssets/Resource/spines/snowman4.sk"
+            ]
+        }
+    ]
+}

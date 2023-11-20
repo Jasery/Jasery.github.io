@@ -1,0 +1,53 @@
+{
+    "1": {
+    "startRate": 0.3,
+    "stopRate": 0.08,
+    "clearTargetTime": 2000,
+    "findTargetRate": 0,
+    "findTargetDistance": 5000,
+    "turnRate": 0.1,
+    "goBackRate": 0.1,
+    "comment": "随机1"
+  },
+  "2": {
+    "startRate": 0.1,
+    "stopRate": 0.002,
+    "clearTargetTime": 6000,
+    "findTargetRate": 0.004,
+    "findTargetDistance": 5000,
+    "turnRate": 0.1,
+    "goBackRate": 0.08,
+    "comment": "随机2——带球"
+  },
+  "3": {
+    "startRate": 0.1,
+    "stopRate": 0.01,
+    "clearTargetTime": 1000,
+    "findTargetRate": 0.2,
+    "findTargetDistance": 5000,
+    "goBackRate": 0.08,
+    "turnRate": 0.3,
+    "comment": "追人，多炮弹"
+  },
+  "100": {
+    "startRate": 0.06,
+    "stopRate": 0.06,
+    "clearTargetTime": 2000,
+    "findTargetRate": 0,
+    "findTargetDistance": 5000,
+    "goBackRate": 0.05,
+    "turnRate": 0.1,
+    "comment": "新手ai,不动的货"
+  },
+  "101": {
+    "startRate": 0.08,
+    "stopRate": 0.08,
+    "clearTargetTime": 100,
+    "findTargetRate": 0.005,
+    "findTargetDistance": 5000,
+    "goBackRate": 0.05,
+    "turnRate": 0.1,
+    "comment": "新手ai,精准发射"
+  }
+
+}

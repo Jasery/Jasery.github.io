@@ -1,0 +1,168 @@
+{
+    "shareList": [
+
+        1002,
+        2000,
+        2001,
+        2002,
+        3000,
+        3001,
+        3002,
+        3003
+    ],
+    "skins": [{
+            "id": 1000,
+            "name": "小红帽",
+            "type": "free",
+            "speed": 0,
+            "weight": 0,
+            "star": 1,
+            "getType": "share",
+            "spine": "snowman2"
+        },
+        {
+            "id": 1001,
+            "name": "小蓝帽",
+            "type": "free",
+            "speed": 20,
+            "weight": 12,
+            "star": 2,
+            "price": 1000,
+            "getType": "video",
+            "debrisCount": 20,
+            "spine": "snowman2"
+        },
+        {
+            "id": 1002,
+            "name": "小礼帽",
+            "type": "free",
+            "speed": 12,
+            "weight": 20,
+            "star": 2,
+            "price": 1000,
+            "getType": "share",
+            "debrisCount": 20,
+            "danGrading": 1,
+            "spine": "snowman2"
+        },
+        {
+            "id": 1003,
+            "name": "蕉蕉",
+            "type": "free",
+            "speed": 88,
+            "weight": 40,
+            "star": 4,
+            "price": 1000,
+            "getType": "challenge",
+            "debrisCount": 20,
+            "danGrading": 1,
+            "spine": "snowman1"
+        },
+        {
+            "id": 1004,
+            "name": "太刀忍者",
+            "type": "debris",
+            "speed": 38,
+            "weight": 90,
+            "star": 4,
+            "price": 1000,
+            "debrisCount": 300,
+            "danGrading": 1,
+            "spine": "snowman4"
+        },
+        {
+            "id": 1005,
+            "name": "江小花",
+            "type": "free",
+            "speed": 66,
+            "weight": 66,
+            "star": 4,
+            "price": 1000,
+            "getType": "gift",
+            "debrisCount": 20,
+            "danGrading": 1,
+            "spine": "snowman3"
+        },
+        {
+            "id": 2000,
+            "name": "小水桶",
+            "type": "gold",
+            "speed": 18,
+            "weight": 18,
+            "star": 2,
+            "price": 1300,
+            "getType": "share",
+            "spine": "snowman2"
+        },
+        {
+            "id": 2001,
+            "name": "小鹿",
+            "type": "gold",
+            "speed": 32,
+            "weight": 32,
+            "star": 3,
+            "price": 6000,
+            "debrisCount": 20,
+            "danGrading": 1,
+            "spine": "snowman2"
+        },
+        {
+            "id": 2002,
+            "name": "蒙面队长",
+            "type": "gold",
+            "speed": 100,
+            "weight": 100,
+            "star": 5,
+            "price": 15000,
+            "spine": "snowman1"
+        },
+        {
+            "id": 3000,
+            "name": "胖胖",
+            "type": "debris",
+            "speed": 18,
+            "weight": 46,
+            "star": 3,
+            "price": 1000,
+            "debrisCount": 150,
+            "danGrading": 3,
+            "spine": "snowman2"
+        },
+        {
+            "id": 3001,
+            "name": "花花",
+            "type": "debris",
+            "speed": 46,
+            "weight": 18,
+            "star": 3,
+            "price": 1000,
+            "debrisCount": 100,
+            "danGrading": 1,
+            "spine": "snowman2"
+        },
+        {
+            "id": 3002,
+            "name": "机器猫",
+            "type": "debris",
+            "speed": 70,
+            "weight": 58,
+            "star": 4,
+            "price": 1000,
+            "debrisCount": 100,
+            "danGrading": 1,
+            "spine": "snowman1"
+        },
+        {
+            "id": 3003,
+            "name": "刚刚侠",
+            "type": "debris",
+            "speed": 66,
+            "weight": 100,
+            "star": 5,
+            "debrisCount": 250,
+            "danGrading": 9,
+            "price": 1000,
+            "spine": "snowman1"
+        }
+    ]
+}

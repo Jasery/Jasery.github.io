@@ -1,0 +1,42 @@
+[
+    {
+        "rank": [1, 2],
+        "award": {
+            "gold": 100,
+            "debris": 5
+        }
+    },
+    {
+        "rank": [2, 4],
+        "award":{
+            "gold": 80,
+            "debris": 3
+        }
+    },
+    {
+        "rank": [4, 6],
+        "award": {
+            "gold": 60,
+            "debris": 2
+        }
+    },
+    {
+        "rank": [6, 8],
+        "award": {
+            "gold": 40,
+            "debris": 1
+        }
+    },
+    {
+        "rank": [8, 10],
+        "award": {
+            "gold": 20
+        }
+    },        
+    {
+        "rank": [10],
+        "award": {
+            "gold": 10
+        }
+    }
+]

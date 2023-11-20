@@ -1,0 +1,23 @@
+{
+  "deviceOrientation": "portrait",
+  "showStatusBar": false,
+  "openDataContext": "openContexts",
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wxfed270b54f6a71f0",
+    "wxbf5ab30b0624959f",
+    "wx94b0409c877ad995",
+    "wx6c061488e9154338",
+    "wx220c7061cf8ae02f",
+    "wx6de9568a03649571",
+    "wx5df2b59143c59401",
+    "wx25b1e848dd9c5abb",
+    "wx628936940961bc16",
+    "wx004d9f4767097f21"
+  ]
+}
