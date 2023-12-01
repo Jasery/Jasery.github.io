@@ -5,7 +5,7 @@ window._commonConfig = {
     local: {
       serverHost: "http://router.d24.mingchao.com",
       metlHost: "http://cdh-log.mingchao.com/metl/v1",
-      cdnHost: "GameAssets/",
+      cdnHost: "/snow-ball/GameAssets",
     },
     debug: {
       serverHost: "http://router.m24.mingchao.com",
