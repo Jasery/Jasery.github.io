@@ -1,0 +1,126 @@
+{
+    "-----------------雪人相关配置--------------": "",
+    "雪人运动速度": "",
+    "speed": 5, 
+
+    "雪人初始半径": "",
+    "snowManRadius": 50,
+
+    "雪人每杀一个人变大速度": "",
+    "snowManGrownUpRate": 0.3,
+
+    "雪人的反弹初始速度": "",
+    "snowManReboundSpeed": 0.3,
+
+    "雪人的反弹速度随雪球变大而变大的比例": "",
+    "reboundSpeedRatio": 0.5, 
+
+    "反弹的最大速度": "",
+    "maxReboundSpeed": 29,
+
+    "播放爆炸效果速度": "",
+    "explodeSpeed": 8,
+
+    "雪人撞飞时间": "",
+    "snowManFlyTime": 1.2,
+
+    "雪人撞飞时间随反弹速度系数": "",
+    "snowManFlyTimeRateBySpeed": 10,
+
+    "不被撞飞的最大速度": "",
+    "maxUnFlySpeed": 6, 
+
+    "持球碰撞加速系数": "",
+    "speedUp": 1.5,
+
+    "持球碰撞加速时间": "",
+    "speedUpTime": 300,
+
+    "最大转向速度": "",
+    "maxChangeAngle": 0.18,
+
+    "雪人检测危险偏移": "",
+    "snowmanCheckDangerOffset": 70,
+
+    "雪人往回飞的距离(超出距离根据概率确定是否往回飞)": "",
+    "flyBackOffset": 100,
+
+    "雪人超出距离往回飞的概率": "",
+    "flyBackRate": 0.7,
+
+    
+    "-----------------雪球相关配置--------------": "",
+    "雪球变大速度": "",
+    "snowBallGrownUpRate": 0.9,
+
+    "雪人变大后雪球变大速度的比例": "",
+    "snowBallGrownUpRateRatio": 0.4,
+    
+    "雪球初始半径": "",
+    "snowBallRadius": 25,
+
+    "雪球的反弹初始速度": "",
+    "snowBallReboundSpeed": 8,
+
+    "产生雪球的延时（间隔）": "",
+    "buildSnowBallDelay": 230,
+
+    "雪球相抵消的最大差值": "",
+    "snowBallMaxUnCounteract": 7,
+
+    "雪球最大尺寸": "",
+    "snowBallMaxSize": 160,
+
+
+    "-----------------游戏相关配置--------------": "",
+    "皮肤速度加成系数": "",
+    "skinSpeedRate": 0.25,
+
+    "皮肤力量加成系数": "",
+    "skinWeightRage": 0.25,
+
+    "机器人复活概率": "",
+    "robotReviveRate": 0.08,
+
+    "最少奖杯数游戏结算后低于这个奖杯数将不会再扣奖": "",
+    "minCup": 100,
+
+    "反弹减速度系数": "",
+    "reboundSlowDownRate": 1,
+    
+    "被反弹后，可以移动的临界速度": "",
+    "reboundCanMoveSpeed": 3,
+
+
+    "debug": false,
+
+    
+    "-----------------地图相关配置--------------": "",
+    "地图缩小时间间隔": "",
+    "mapShrinkTime": 5,
+
+    "每次地图缩小范围": "",
+    "mapShrinkRate": 100,
+
+    "地图最小范围（缩到这个值就不缩了）": "",
+    "minMapRadius": 300,
+
+    "雪人地图方块安全区域偏移量": "",
+    "snowmanSafeAreaOffset": 80,
+    "雪球地图方块安全区域偏移量": "",
+    "snowballSafeAreaOffset": 220,
+
+
+    "-----------------轨迹相关配置--------------": "",
+    "轨迹颜色": "",
+    "trackColor": "#999999",
+
+    "轨迹初始透明度": "",
+    "trackAlpha": 0.5,
+
+    "轨迹宽度": "",
+    "trackWidth": 25,
+
+    "轨迹消失时间": "",
+    "trackDisappearTime": 1500
+}

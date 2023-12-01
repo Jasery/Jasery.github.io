@@ -1,0 +1,20 @@
+{
+  "weights": [
+    {"weight": 10, "out": 1},
+    {"weight": 100, "out": 2},
+    {"weight": 300, "out": 3},
+    {"weight": 300, "out": 4},
+    {"weight": 700, "out": 5},
+    {"weight": 700, "out": 6}
+  ],
+
+  "item_effects": [
+    {"desc": "皮肤大礼包", "gold": 0, "debris": 0, "skinID": 1005},
+    {"desc": "金币x500", "gold": 500, "debris": 0},
+    {"desc": "皮肤碎片x10", "gold": 0, "debris": 10},
+    {"desc": "金币x200", "gold": 200, "debris": 0},
+    {"desc": "皮肤碎片x5", "gold": 0, "debris": 5},
+    {"desc": "金币x50", "gold": 50, "debris": 0}
+  ]
+
+}

@@ -1,0 +1,19 @@
+{
+  "Bronze1": [11],
+  "Bronze2": [11],
+  "Silver1": [1, 4],
+  "Silver2": [1, 4],
+  "Gold1": [1, 4, 3],
+  "Gold2": [1, 4, 3],
+  "Gold3": [ 1, 4, 3],
+  "Platnum1": [1, 2, 3, 4],
+  "Platnum2": [1, 2, 3, 4],
+  "Platnum3": [1, 2, 3, 4],
+  "Diamond1": [1, 2, 3, 4],
+  "Diamond2": [1, 2, 3, 4],
+  "Diamond3": [1, 2, 3, 4],
+  "Master1": [1, 2, 3, 4],
+  "Master2": [1, 2, 3, 4],
+  "Master3": [1, 2, 3, 4],
+  "Chanllenger": [1, 2, 3, 4]
+}

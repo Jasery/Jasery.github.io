@@ -1,0 +1,183 @@
+{
+    "local": [
+        {
+            "type": "json",
+            "urls": [
+                "config/aiConfig.json",
+                "config/challengeConfig.json",
+                "config/commonConfig.json",
+                "config/danGradingCupConfig.json",
+                "config/danGradingDisplayConfig.json",
+                "config/debugConfig.json",
+                "config/initConfig.json",
+                "config/mapConfig.json",
+                "config/mapsConfig.json",
+                "config/prizeWheelConfig.json",
+                "config/rankCupConfig.json",
+                "config/rewardConfig.json",
+                "config/robotConfig.json",
+                "config/shopConfig.json",
+                "config/usersConfig.json"
+            ]
+        },
+        {
+            "type": "atlas",
+            "urls": [
+                "res/atlas/Resource/loading.atlas"
+            ]
+        },
+        {
+            "type": "image",
+            "urls": [
+                "Resource/loading/bg.png"
+            ]
+        },
+        {
+            "type": "arraybuffer",
+            "urls": []
+        }
+    ],
+    "map1": [
+        {
+            "type": "json",
+            "urls": []
+        },
+        {
+            "type": "atlas",
+            "urls": []
+        },
+        {
+            "type": "image",
+            "urls": [
+                "Resource/maps/bg1/1.png",
+                "Resource/maps/bg1/2.png",
+                "Resource/maps/bg1/3.png",
+                "Resource/maps/bg1/4.png",
+                "Resource/maps/bg1/5.png",
+                "Resource/maps/bg1/6.png",
+                "Resource/maps/bg1/7.png",
+                "Resource/maps/bg1/8.png",
+                "Resource/maps/bg1/9.png"
+            ]
+        },
+        {
+            "type": "arraybuffer",
+            "urls": []
+        }
+    ],
+    "map2": [
+        {
+            "type": "json",
+            "urls": []
+        },
+        {
+            "type": "atlas",
+            "urls": []
+        },
+        {
+            "type": "image",
+            "urls": [
+                "Resource/maps/bg2/1.png",
+                "Resource/maps/bg2/2.png",
+                "Resource/maps/bg2/3.png",
+                "Resource/maps/bg2/4.png",
+                "Resource/maps/bg2/5.png",
+                "Resource/maps/bg2/6.png",
+                "Resource/maps/bg2/7.png",
+                "Resource/maps/bg2/8.png",
+                "Resource/maps/bg2/9.png"
+            ]
+        },
+        {
+            "type": "arraybuffer",
+            "urls": []
+        }
+    ],
+    "map3": [
+        {
+            "type": "json",
+            "urls": []
+        },
+        {
+            "type": "atlas",
+            "urls": []
+        },
+        {
+            "type": "image",
+            "urls": [
+                "Resource/maps/bg3/1.png",
+                "Resource/maps/bg3/2.png",
+                "Resource/maps/bg3/3.png",
+                "Resource/maps/bg3/4.png",
+                "Resource/maps/bg3/5.png",
+                "Resource/maps/bg3/6.png",
+                "Resource/maps/bg3/7.png",
+                "Resource/maps/bg3/8.png",
+                "Resource/maps/bg3/9.png"
+            ]
+        },
+        {
+            "type": "arraybuffer",
+            "urls": []
+        }
+    ],
+    "cdn": [
+        {
+            "type": "json",
+            "urls": [
+                "fileconfig.json",
+                "unpack.json"
+            ]
+        },
+        {
+            "type": "atlas",
+            "urls": [
+                "res/atlas/Resource/Challenge.atlas",
+                "res/atlas/Resource/common.atlas",
+                "res/atlas/Resource/customer.atlas",
+                "res/atlas/Resource/dailyEnterGift.atlas",
+                "res/atlas/Resource/danGrading.atlas",
+                "res/atlas/Resource/gameInfo.atlas",
+                "res/atlas/Resource/login.atlas",
+                "res/atlas/Resource/loginAward.atlas",
+                "res/atlas/Resource/mainAward.atlas",
+                "res/atlas/Resource/maps.atlas",
+                "res/atlas/Resource/Match.atlas",
+                "res/atlas/Resource/prizeWheel.atlas",
+                "res/atlas/Resource/rank.atlas",
+                "res/atlas/Resource/settlement.atlas",
+                "res/atlas/Resource/shop.atlas",
+                "res/atlas/Resource/snowBalls.atlas",
+                "res/atlas/Resource/snowMans.atlas",
+                "res/atlas/Resource/spines.atlas",
+                "res/atlas/Resource/tryGame.atlas"
+            ]
+        },
+        {
+            "type": "image",
+            "urls": [
+                "Resource/spines/snowman1.png",
+                "Resource/spines/snowman2.png",
+                "Resource/spines/snowman4.png"
+            ]
+        },
+        {
+            "type": "arraybuffer",
+            "urls": [
+                "Resource/spines/snowman1.sk",
+                "Resource/spines/snowman2.sk",
+                "Resource/spines/snowman3.sk",
+                "Resource/spines/snowman4.sk"
+            ]
+        }
+    ],
+    "playView": [
+        {
+            "type": "atlas",
+            "urls": [
+                "res/atlas/Resource/explodeEffect.atlas",
+                "res/atlas/Resource/snowflake.atlas"
+            ]
+        }
+    ]
+}
